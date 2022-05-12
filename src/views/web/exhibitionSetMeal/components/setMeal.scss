@@ -1,0 +1,121 @@
+.setMeal {
+  margin-top: 36px;
+  .meal {
+    .title {
+      display: flex;
+      justify-content: space-between;
+      .name {
+        color: #333333;
+        font-size: 24px;
+        font-family: Source Han Sans CN;
+      }
+      .right {
+        display: flex;
+        line-height: 24px;
+        font-family: SourceHanSansCN-Regular;
+        font-size: 14px;
+        color: #333;
+        .icon {
+          width: 53px;
+          height: 24px;
+          background: #bbbbbb;
+          border-radius: 3px;
+          text-align: center;
+          line-height: 24px;
+          margin-right: 8px;
+          color: #ffffff;
+        }
+      }
+    }
+    .ul {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      &.noml {
+        margin-left: -32px;
+      }
+      .li {
+        width: 200px;
+        height: 200px;
+        background: #f9f9f9;
+        text-align: center;
+        line-height: 200px;
+        color: #333333;
+        font-size: 32px;
+        font-family: Source Han Sans CN;
+        font-weight: 500;
+      }
+      .details {
+        position: relative;
+        min-width: 200px;
+        width: 200px;
+        height: 200px;
+        background: #f9f9f9;
+        text-align: center;
+        padding: 30px 0;
+        font-size: 14px;
+        color: #999999;
+        font-family: SourceHanSansCN-Regular;
+        margin-bottom: 32px;
+        margin-left: 32px;
+        .des {
+          margin: 12px 0 15px 0;
+        }
+        .nodes {
+          font-size: 24px;
+          font-family: SourceHanSansCN-Regular;
+          color: #bbbbbb;
+        }
+        .num {
+          font-size: 32px;
+          font-family: Roboto;
+          font-weight: 500;
+          color: #333333;
+        }
+        .nums {
+          color: #fe5a60;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+        }
+        .tooltip {
+          position: absolute;
+          margin: 10px 0 0 12px;
+          display: none;
+          .up {
+            width: 0;
+            height: 0;
+            margin: auto;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid rgba(0, 0, 0, 0.7);
+          }
+          .tooltipContent {
+            width: 177px;
+            height: 60px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 12px 0 12px 14px;
+            text-align: left;
+            font-size: 14px;
+            color: #ffffff;
+            font-family: SourceHanSansCN-Regular;
+          }
+        }
+      }
+      .hov {
+        &:hover {
+          cursor: pointer;
+          .tooltip {
+            display: block;
+          }
+        }
+      }
+      .one {
+        margin-left: 0;
+      }
+    }
+  }
+  .two {
+    margin-top: 18px;
+  }
+}

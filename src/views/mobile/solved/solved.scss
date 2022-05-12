@@ -1,0 +1,257 @@
+.content {
+  * {
+    box-sizing: border-box;
+    font-family: SourceHanSansCN-Regular;
+  }
+
+  .head,
+  .foot,
+  .body-foot {
+    width: 100%;
+  }
+  .head {
+    a {
+      display: block;
+      width: 100%;
+      height: 7.2rem;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .link-body {
+    background-color: #23b8ff;
+    a {
+      color: #ffffff;
+    }
+  }
+  .body {
+    font-size: 0.42rem;
+    color: #333333;
+    line-height: 0.58rem;
+
+    text-align: center;
+    .body-head {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .banner {
+      position: relative;
+      width: 100%;
+      height: 16.54rem;
+      .swiper-container {
+        height: 100%;
+      }
+      // background-image: url(../../../assets/images/solve/Mbox1.png);
+      .box {
+        width: 100%;
+        height: 100%;
+        .bg {
+          width: 100%;
+          height: 100%;
+        }
+        .content {
+          width: 100%;
+          padding: 0.68rem 0.34rem 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          color: #fff;
+          .top {
+            width: 100%;
+            .left {
+              width: 100%;
+              margin-bottom: 0.4rem;
+            }
+            .desc {
+              text-align: left;
+              img {
+                height: 0.6rem;
+                margin-bottom: 0.24rem;
+              }
+              h5 {
+                width: 6.12rem;
+                margin-bottom: 0.32rem;
+                font-size: 0.34rem;
+              }
+              .text {
+                font-size: 0.24rem;
+                margin-bottom: 0.48rem;
+              }
+              button {
+                width: 2.16rem;
+                height: 0.68rem;
+                background: #ffffff;
+                border-radius: 3rem;
+                margin-bottom: 0.68rem;
+              }
+            }
+          }
+          .bottom {
+            display: flex;
+            justify-content: start;
+            flex-wrap: wrap;
+            li {
+              width: 25%;
+              text-align: center;
+              font-size: 0.24rem;
+              margin-bottom: 0.4rem;
+              p {
+                &:last-child {
+                  color: rgba($color: #fff, $alpha: 0.6);
+                }
+              }
+              .num {
+                font-size: 0.42rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .banner2 {
+      .desc {
+        .tab {
+          display: flex;
+          margin-bottom: 0.68rem;
+          span {
+            margin-right: 0.48rem;
+            font-size: 0.24rem;
+            line-height: 0.24rem;
+            color: #fff;
+            opacity: 0.5;
+            padding-bottom: 0.12rem;
+            cursor: pointer;
+            &.active {
+              opacity: 1;
+              border-bottom: 0.02rem solid #fff;
+            }
+          }
+        }
+      }
+    }
+    .body-foot {
+      padding: 0 0.4rem;
+      padding-top: 0.9rem;
+      text-align: left;
+
+      .box {
+        img {
+          width: 100%;
+          margin-bottom: 0.4rem;
+        }
+        .len-content {
+          .liTitle {
+            margin-bottom: 0.32rem;
+            font-size: 0.34rem;
+          }
+          .liContext {
+            margin-bottom: 0.48rem;
+            font-size: 0.24rem;
+            color: #333333;
+          }
+        }
+        .link-body {
+          text-align: center;
+          width: 2.16rem;
+          height: 0.68rem;
+          line-height: 0.68rem;
+          background: #19a0f1;
+          opacity: 1;
+          border-radius: 3rem;
+          font-size: 0.24rem;
+          margin-bottom: 0.9rem;
+        }
+      }
+    }
+  }
+  .foot-center {
+    padding: 0 15px;
+    background-color: #232526;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    .foot-titles {
+      padding: 28px 15px 18px;
+      border-bottom: 1px solid #ffffff10;
+    }
+    .foot-box {
+      position: relative;
+      border-bottom: 1px solid #ffffff10;
+      padding-left: 15px;
+      line-height: 30px;
+      padding-top: 8px;
+      padding-bottom: 18px;
+      .p {
+        color: #919293;
+        font-size: 12px;
+      }
+      .p-content {
+        font-size: 16px;
+      }
+      i {
+        width: 18px;
+        height: 18px;
+        background-image: url("../../../assets/images/mobile-serviced/phone.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 28px;
+        right: 0;
+      }
+    }
+    .foot-bottom {
+      border: none;
+      margin-bottom: 20px;
+    }
+  }
+}
+.foot {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 4.75rem;
+  position: relative;
+  div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  h3 {
+    font-size: 0.48rem;
+    margin: 1.76rem 0 0.48rem;
+  }
+  p {
+    font-size: 0.28rem;
+  }
+}
+::v-deep.swiper-pagination {
+  width: 45px;
+  height: 0.05rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0.3rem;
+  display: flex;
+  .swiper-pagination-bullet {
+    width: 0.32rem;
+    height: 0.05rem;
+    background: #ffffff;
+    opacity: 0.3;
+    margin-right: 0.08rem;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 0.6rem;
+    opacity: 1;
+  }
+}

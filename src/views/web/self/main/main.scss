@@ -1,0 +1,214 @@
+.self-main {
+  .banner {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+
+    .bannerShade {
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      height: 200px;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    img {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+    }
+  }
+
+  div.self-base-container {
+    min-height: 80vh;
+    @media screen and (min-width: 1920px) {
+      width: 1440px;
+    }
+  }
+
+  .navs {
+    height: 50px;
+    padding-left: 160px;
+    position: relative;
+
+    .userinfo {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      z-index: 2;
+
+      .avatar {
+        height: 140px;
+        width: 140px;
+        position: relative;
+        background: rgba(255, 255, 255, 1);
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        p {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          width: 100%;
+          height: 28px;
+          line-height: 28px;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          font-size: 14px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+
+      div.info {
+        width: 300px;
+        position: relative;
+        color: #fff;
+
+        div.content {
+          position: absolute;
+          bottom: 56px;
+          left: 0px;
+          width: 100%;
+          padding: 0 20px;
+
+          div.name {
+            font-size: 24px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+
+          p {
+            padding-top: 8px;
+            font-size: 14px;
+            line-height: 22px;
+            width: 100%;
+            word-break: break-all;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+
+    div.nav {
+      height: 100%;
+      line-height: 49px;
+      text-align: center;
+      border-bottom: 1px solid #E7E7E7;
+      font-size: 16px;
+      color: #666666;
+      position: relative;
+      z-index: 10;
+
+      span {
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+        margin: 0 33px;
+        cursor: pointer;
+
+        i {
+          padding: 0 6px;
+          color: #CCCCCC;
+          font-size: 18px;
+          position: relative;
+          top: -6px;
+        }
+      }
+
+      span.active {
+        color: #23B8FF;
+        border-color: #23B8FF;
+        font-weight: bold;
+
+        i {
+          color: #23B8FF;
+        }
+      }
+
+      span.standard {
+        font-size: 14px;
+        float: right;
+        margin-right: 0;
+        color: #23b8ff;
+
+        i {
+          font-size: 14px;
+          color: #23b8ff;
+          top: 0;
+        }
+      }
+    }
+  }
+
+  ul.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+    > li {
+      width: 305px;
+      height: 235.9px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      overflow: hidden;
+      &:hover {
+        box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.1);
+      }
+      @media screen and (min-width: 1920px) {
+        width: 345px;
+        height: 261px;
+      }
+
+      &:nth-child(4n+1) {
+        margin-left: 0;
+        border-radius: 10px;
+      }
+
+      &:nth-child(1) {
+        div.box {
+          padding: 10px;
+
+          div.add {
+            height: 100%;
+            width: 100%;
+            background: rgba(248, 250, 252, 1);
+            text-align: center;
+
+            div {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translateX(-50%) translateY(-50%);
+
+              p {
+                color: #23B8FF;
+                font-size: 14px;
+                padding-top: 16px;
+              }
+            }
+          }
+        }
+      }
+
+      div.box {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

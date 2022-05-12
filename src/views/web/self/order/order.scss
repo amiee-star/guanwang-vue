@@ -1,0 +1,244 @@
+.order {
+  min-height: calc(100vh - 170px);
+  background: #f6f6f6;
+
+  &::v-deep {
+    .el-dialog {
+      margin-top: 20vh !important;
+      width: 540px;
+    }
+  }
+
+  .self-base-container {
+    padding: 26px 0 40px;
+  }
+
+  .detail-text {
+    font-size: 14px;
+    display: flex;
+
+    &-title {
+      flex: 0 0 auto;
+      width: 72px;
+      text-align: right;
+      color: #999;
+      margin-bottom: 15px;
+    }
+
+    &-info {
+      flex: 0 0 auto;
+      color: #333;
+      margin-left: 6px;
+
+      &.success {
+        color: #0da056;
+      }
+
+      &.warning {
+        color: #e6a23c;
+      }
+
+      &.info {
+        color: #d3d4d6;
+      }
+    }
+  }
+
+  .qrcode {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
+
+  .el-icon-arrow-left {
+    cursor: pointer;
+  }
+
+  .content {
+    background: #fff;
+    padding: 30px 60px;
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      div.ti {
+        font-size: 26px;
+        color: #000000;
+
+        .title {
+          font-size: 14px;
+          color: #666666;
+        }
+
+        .jine {
+          font-size: 24px;
+          color: #fe5a60;
+        }
+      }
+
+      .recharge {
+        width: 103px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        background: #23b8ff;
+        border-radius: 3px;
+        color: #ffffff;
+        font-size: 14px;
+        margin-right: 24px;
+        cursor: pointer;
+      }
+
+      div.kefu {
+        color: #23b8ff;
+        display: flex;
+
+        span {
+          line-height: 36px;
+        }
+
+        span:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
+        svg {
+          font-size: 18px;
+          margin-left: 4px;
+        }
+      }
+    }
+
+    .orderStatus {
+      position: relative;
+      padding-left: 14px;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: 26px;
+        width: 0;
+        height: 0;
+        border: 5px solid #ccc;
+        border-radius: 50%;
+      }
+
+      &.success {
+        &::after {
+          border-color: #0da056;
+        }
+      }
+
+      &.warning {
+        &::after {
+          border-color: #e6a23c;
+        }
+      }
+
+      &.info {
+        &::after {
+          border-color: #d3d4d6;
+        }
+      }
+    }
+
+    div.table {
+      padding: 26px 0;
+
+      ::v-deep .el-table {
+        th {
+          background: #f0f0f0;
+          color: #333333;
+          font-weight: bold;
+          padding: 0;
+          line-height: 42px;
+        }
+
+        span.name {
+          color: #336484;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        span.success {
+          color: #0da056;
+        }
+
+        span.error {
+          color: #ff5a5f;
+        }
+
+        span.waiting {
+          color: #00aeff;
+        }
+
+        span.notpay {
+          color: #ff5a5f;
+        }
+      }
+
+      .more {
+        color: #23b8ff;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .qrcode-part {
+    text-align: center;
+
+    .recharge-money {
+      color: #FE5A60;
+      font-size: 24px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    a {
+      font-size: 12px;
+      line-height: 32px;
+      color: #ccc;
+      margin: 10px 0;
+      text-decoration: underline;
+    }
+  }
+
+  .dialog-footer {
+    text-align: center;
+    margin: 0 0 60px 0;
+
+    .sure {
+      width: 108px;
+      height: 36px;
+      font-size: 14px;
+      margin: auto;
+      border-radius: 3px;
+      background: #f69a23;
+      color: #ffffff;
+    }
+  }
+
+  .tishi {
+    position: absolute;
+    width: 100%;
+    margin-left: -20px;
+    bottom: 0;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #fef5e8;
+    color: #f69a23;
+  }
+
+  .f-mb5 {
+    margin-bottom: 5px;
+  }
+}

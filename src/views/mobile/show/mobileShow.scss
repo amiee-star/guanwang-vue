@@ -1,0 +1,227 @@
+.mobile-show-content {
+  .main-head {
+    position: fixed;
+    top: 43px;
+    z-index: 1000;
+    height: 46px;
+    width: 100%;
+    .layout {
+      display: flex;
+    }
+    .head-box {
+      flex: 1;
+      display: flex;
+      background-color: #f4f5f9;
+      .head-content {
+        width: 100%;
+        position: relative;
+        display: flex;
+        .img {
+          margin: 15px 10px 0 20px;
+
+          width: 20px;
+          height: 20px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .head-title {
+          flex: 1;
+          font-size: 14px;
+          color: #333333;
+          line-height: 46px;
+        }
+        .line {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          width: 0px;
+          height: 4px;
+          background-color: #23b8ff;
+          z-index: 9000;
+        }
+      }
+    }
+    .box-active {
+      background-color: #ffffff;
+      .line {
+        left: 0 !important;
+        width: 100% !important;
+        transition: all 1s;
+      }
+    }
+  }
+  .main-center1 {
+    margin-top: 46px;
+  }
+  .main-center {
+    padding: 34px 20px 45px 20px;
+    .title {
+      font-size: 21px;
+      color: #181818;
+    }
+    .introduce {
+      margin-top: 15px;
+      font-size: 12px;
+      line-height: 18px;
+      color: #888888;
+    }
+    .p {
+      margin-top: 28px;
+      color: #2c2c2c;
+      font-size: 12px;
+    }
+    .module1 {
+      background-image: url(../../../assets/images/show/true.png);
+      background-repeat: no-repeat;
+      background-position: 22px 21px;
+      margin-top: 23px;
+      padding: 17px 22px 15px 50px;
+      .module-title {
+        font-size: 14px;
+      }
+      .module-p {
+        margin-top: 14px;
+        font-size: 12px;
+      }
+    }
+    .module1-hover {
+      background-image: url(../../../assets/images/show/true2.png);
+      background-repeat: no-repeat;
+      background-position: 22px 21px;
+      background-color: #19a0f1;
+      color: #ffffff;
+    }
+    .module2 {
+      padding: 0 0 30px 0;
+      .tip-list {
+        padding: 30px 0 0 50px;
+        line-height: 14px;
+        color: #333333;
+      }
+    }
+    .module-img {
+      margin-top: 30px;
+      width: 100%;
+      box-shadow: 0px 4px 9px rgba(181, 198, 219, 0.3);
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .img-top {
+        height: 18px;
+        border-radius: 6px 6px 0px 0px;
+        background-color: #b5c6db;
+        .circles {
+          padding: 5px 0 5px 8px;
+          display: flex;
+          justify-content: flex-start;
+          .circle {
+            margin-right: 5px;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #fff;
+          }
+        }
+      }
+      .img-img {
+        padding: 10px 10px;
+        background-color: #fff;
+      }
+    }
+    .module-img2 {
+      margin-top: 30px;
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .left-img {
+        position: relative;
+        padding-top: 100%;
+
+        .left-img4-1 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 51%;
+        }
+        .left-img4-2 {
+          position: absolute;
+          top: 5%;
+          left: 24%;
+          z-index: 10;
+          width: 51%;
+        }
+        .left-img4-3 {
+          position: absolute;
+          top: 10%;
+          left: 48%;
+          z-index: 20;
+          width: 51%;
+        }
+      }
+    }
+  }
+  .tip-list {
+    background-image: url(../../../assets/images/show/true.png);
+    background-repeat: no-repeat;
+    background-position: 17px 30px;
+  }
+  .button {
+    margin-top: 30px;
+    width: 92px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color: #19a0f1;
+    font-size: 12px;
+    background-color: #fff;
+  }
+  .gray {
+    background-color: #f4f5f9;
+  }
+  .foot-center {
+    padding: 0 15px;
+    background-color: #232526;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    .foot-titles {
+      padding: 28px 15px 0;
+      height: 63px;
+      border-bottom: 1px solid #ffffff10;
+    }
+    .foot-box {
+      position: relative;
+      height: 74px;
+      border-bottom: 1px solid #ffffff10;
+      padding-left: 15px;
+      line-height: 30px;
+      padding-top: 8px;
+      .p {
+        color: #919293;
+        font-size: 12px;
+      }
+      .p-content {
+        font-size: 16px;
+      }
+      i {
+        width: 18px;
+        height: 18px;
+        background-image: url("../../../assets/images/mobile-serviced/phone.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 28px;
+        right: 0;
+      }
+    }
+    .foot-bottom {
+      border: none;
+      margin-bottom: 10px;
+    }
+  }
+}

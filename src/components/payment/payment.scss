@@ -1,0 +1,169 @@
+.payment{
+    ::v-deep .payment-wrap{
+      
+        .el-dialog__header{
+            height: 0;
+            padding: 0;
+        }
+        .el-dialog__body{
+           padding: 0;
+        }
+        &.scan{
+            padding: 48px 28px 48px 50px;
+            width: 578px;
+            .title{
+                text-align: center;
+                font-size: 24px;
+                color: #333333;
+                font-weight:400;
+            }
+            .content{
+                display: flex;
+                margin-top: 30px;
+                div.code-w{
+                    width: 226px;
+                    height:280px;
+                    border:1px solid rgba(231,231,231,1);
+                    ul.nav{
+                        border-bottom: 1px solid rgba(231,231,231,1);
+                        display: flex;
+                        font-size: 16px;
+                        color: #555352;
+                        li{
+                            height: 42px;
+                            line-height: 42px;
+                            overflow: hidden;
+                            flex: 1;
+                            text-align: center;
+                            cursor: pointer;
+                            svg{
+                                font-size: 84px;
+                                margin-top: -20px;
+                            }
+                            &.active{
+                                background: #EFF7FF;
+                            }
+                           
+                        }
+                    }
+                    div.qr{
+                        padding: 22px 48px 0;
+                        div.qr-img{
+                            height: 130px;
+                            width: 130px;
+                            position: relative;
+                            img{
+                                width: 100%;
+                                display: block;
+                            }
+                            div.overdate{
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0,0,0,0.8);
+                                text-align: center;
+                                color: #fff;
+                                line-height: 130px;
+                                span{
+                                    color: #19A0F1;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        div.price{
+                            color: #FF4400;
+                            font-size: 24px;
+                            text-align: center;
+                            margin:0 0 10px 0;
+                        }
+                        div.protocol{
+                            text-align: center;
+                            padding-top: 10px;
+                            a{
+                                color: #999999;
+                                &:hover{
+                                    color: #19A0F1;
+                                }
+                            }
+                        }
+                    }
+                }
+                ul.effical{
+                    margin-left: 36px;
+                    li{
+                        margin-bottom: 18px;
+                        color: #666666;
+                        img{
+                            width: 16px;
+                            height: 16px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+    
+            
+        }
+
+
+        &.wating{
+            padding-top: 48px;
+            height: 420px;
+            text-align: center;
+            div.title{
+                font-size: 24px;
+                color: #333333;
+                font-weight:400;
+            }
+            div.loading{
+                margin-top:90px;
+                p{
+                    display: inline-block;
+                }
+                svg{
+                    font-size: 40px;
+                }
+            }
+            div.desc{
+                font-size: 18px;
+                color: #666666;
+                font-weight:bold;
+                margin:26px 0 16px;
+            }
+            div.hint{
+                color:rgba(153,153,153,1);
+            }
+        }
+      
+        &.success,&.fail{
+            padding:54px;
+            width:380px;
+            height:220px;
+            text-align: center;
+            div.title{
+                color: #666666;
+                font-size:18px;
+                font-weight:bold;
+                svg{
+                    font-size: 24px;
+                    margin-right: 8px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+            div.desc{
+                color: #666666;
+                margin-top: 22px;
+            }
+            div.btns{
+                margin-top: 28px;
+                .el-button+.el-button{
+                    margin-left: 16px;
+                }
+            }
+        }
+
+    }
+}

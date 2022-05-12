@@ -1,0 +1,357 @@
+[
+    {
+        "width": 750,
+        "height": 1207,
+        "scale": 0.6,
+        "fillStyle": "#40395A",
+        "children": [
+            {
+                "type": "image",
+                "x": 40,
+                "y": 852,
+                "width": 670,
+                "fid": "_icon",
+                "url": "https://oss.jimuyida.com/images/4f3c5760-8f7d-11ea-9a7a-d141bad639a7.png",
+                "height": 80
+            },
+            {
+                "type": "rect",
+                "x": 40,
+                "y": 100,
+                "width": 670,
+                "height": 870,
+                "fid": "fd16dfb6a8",
+                "strokeStyle": "",
+                "fillStyle": "#fff",
+                "r": 32,
+                "rt": true,
+                "lt": true,
+                "rb": false,
+                "lb": false
+            },
+            {
+                "type": "image",
+                "x": "center",
+                "y": 41,
+                "width": 130,
+                "fid": "headimgurl",
+                "url": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIH6JKbvODlQ0QD4G4o9hcIGlvpu12epqk7oSzganBrfEl5qotVibxnwEdW2PAIbvv3pu3sUsicyTXw/132",
+                "height": 130,
+                "isCircular": true
+            },
+            {
+                "type": "text",
+                "x": "center",
+                "y": 188,
+                "color": "#000",
+                "text": "惠灵顿国际学院",
+                "font": "42px PingFang-SC-Medium bold",
+                "fid": "nickname",
+                "maxWidth": 670,
+                "textAlign": "",
+                "lineHeight": 42,
+                "maxLine": 1
+            },
+            {
+                "type": "text",
+                "x": "center",
+                "y": 257,
+                "color": "#666666",
+                "text": "推荐您浏览",
+                "font": "32px PingFang-SC-Medium",
+                "fid": "fd16dfb804",
+                "maxWidth": 670,
+                "lineHeight": 35,
+                "maxLine": 1
+            },
+            {
+                "type": "group",
+                "x": 80,
+                "y": 306,
+                "children": [
+                    {
+                        "type": "image",
+                        "x": 0,
+                        "y": 0,
+                        "width": 590,
+                        "fid": "thumbnail",
+                        "url": "https://file.jimuyida.com/scenes/d39154fe-f1f4-5735-1068-d9c2ae354d10/images/c4bf8813-a495-40a9-a9f2-56e8cd679fc5/08.15.2019_09.45.31.jpg?width=590&height=370&t=1569203394869",
+                        "height": 370,
+                        "isCircular": false,
+                        "r": 24,
+                        "compress": "1"
+                    },
+                    {
+                        "type": "rect",
+                        "x": -5,
+                        "y": -3.9,
+                        "lineWidth": "10",
+                        "width": 600,
+                        "height": 380,
+                        "fid": "fd16dfb892",
+                        "strokeStyle": "#fff",
+                        "r": 24
+                    },
+                    {
+                        "type": "image",
+                        "x": 30,
+                        "y": -10,
+                        "width": 52,
+                        "fid": "xxxxx666",
+                        "url": "http://oss.jimuyida.com/images/8ffa3920-8f69-11ea-b4c8-c72c34aa824e.png",
+                        "height": 57
+                    }
+                ],
+                "fid": "fd16dfb820",
+                "width": 590,
+                "height": 390
+            },
+            {
+                "type": "group",
+                "x": 80,
+                "y": 701,
+                "children": [
+                    {
+                        "type": "text",
+                        "x": 0,
+                        "y": 0,
+                        "color": "#232323",
+                        "text": "惠灵顿国际学院",
+                        "font": "36px PingFang-SC-Medium bold",
+                        "fid": "name",
+                        "maxWidth": 590,
+                        "maxLine": 1,
+                        "lineHeight": 40
+                    },
+                    {
+                        "type": "text",
+                        "x": 1.7,
+                        "y": 54,
+                        "color": "#666666",
+                        "text": "惠灵顿国际学院始建于2004年，学校坐落于风景优美嵩山湖畔。经过十余年的努力，惠灵顿国际学院已成为一所国内外知名的国际学校，致力于在中国推广高素质的教育，多年来在学术、管理及聘用多国的专才方...",
+                        "font": "24px Arial",
+                        "fid": "description",
+                        "maxWidth": 590,
+                        "lineHeight": 34,
+                        "maxLine": 4
+                    }
+                ],
+                "fid": "fd16dfb988",
+                "width": 590,
+                "height": 150
+            },
+            {
+                "type": "group",
+                "x": 40,
+                "y": 916,
+                "children": [
+                    {
+                        "type": "rect",
+                        "x": 0,
+                        "y": 0,
+                        "lineWidth": "0",
+                        "width": 670,
+                        "height": 180,
+                        "fid": "fd16dfba31",
+                        "r": 32,
+                        "strokeStyle": "",
+                        "fillStyle": "#F5F6F7",
+                        "rt": false,
+                        "rb": true,
+                        "lt": false
+                    },
+                    {
+                        "type": "image",
+                        "x": 40,
+                        "y": 21.6,
+                        "width": 138,
+                        "fid": "qrcodeUrl",
+                        "height": 138,
+                        "url": "https://mo.3dshichuang.com/scene-portal/resources/wxapp/images/cjimu2.png"
+                    },
+                    {
+                        "type": "text",
+                        "x": 201,
+                        "y": 80,
+                        "color": "#999999",
+                        "text": "长按识别二维码 进入3D世界 >>",
+                        "font": "28px PingFang-SC-Medium",
+                        "fid": "fd16dfbcbb"
+                    }
+                ],
+                "fid": "fd16dfba0b",
+                "width": 670,
+                "height": 230
+            }
+        ],
+        "url": "https://file.jimuyida.com/scenes/d39154fe-f1f4-5735-1068-d9c2ae354d10/images/c4bf8813-a495-40a9-a9f2-56e8cd679fc5/08.15.2019_09.45.31.jpg?width=750&height=1334&t=1569203394869",
+        "gblur": true,
+        "bg": "thumbnail",
+        "compress": "1"
+    },
+
+    {
+        "width": 750,
+        "height": 1207,
+        "scale": 0.6,
+        "fillStyle": "#fff",
+        "children": [
+            {
+                "type": "rect",
+                "x": 0,
+                "y": 0,
+                "width": 750,
+                "height": 1207,
+                "fid": "fd16df2ad3",
+                "fillStyle": "rgba(0,0,0,0.3)",
+                "r": ""
+            },
+            {
+                "type": "group",
+                "x": 70,
+                "y": 82,
+                "children": [
+                    {
+                        "type": "text",
+                        "x": 0,
+                        "y": 0,
+                        "color": "#fff",
+                        "text": "蒙娜丽莎家居这个是3D秀\n                        ",
+                        "font": "62px PingFang-SC-Medium",
+                        "fid": "name",
+                        "maxWidth": 369,
+                        "maxLine": 2,
+                        "lineHeight": 86
+                    },
+                    {
+                        "type": "text",
+                        "x": 0,
+                        "y": 189,
+                        "color": "#fff",
+                        "text": "展馆一般称谓会展场馆，是一个活动场所，用予展示商品、会议交流、信息传播、经济贸易等的场所；展馆又是一种建筑物建筑产品。",
+                        "font": "24px PingFang-SC-Medium",
+                        "fid": "description",
+                        "maxWidth": 450,
+                        "lineHeight": 32,
+                        "maxLine": 4
+                    },
+                    {
+                        "type": "image",
+                        "x": 0,
+                        "y": 340,
+                        "width": 52,
+                        "fid": "_icon",
+                        "url": "https://art-mo.51jianmo.com/scene-portal/resources/wxapp/images/clogo.png",
+                        "height": 57
+                    }
+                ],
+                "fid": "fd16df29d1",
+                "width": 610,
+                "height": 400
+            },
+            {
+                "type": "group",
+                "x": 33,
+                "y": "bottom",
+                "children": [
+                    {
+                        "type": "rect",
+                        "x": 0,
+                        "y": 0,
+                        "lineWidth": 1,
+                        "width": 684,
+                        "height": 371,
+                        "fid": "fd16df2ad3",
+                        "fillStyle": "#fff",
+                        "r": 24
+                    },
+                    {
+                        "type": "image",
+                        "x": 34,
+                        "y": 34,
+                        "width": 86,
+                        "fid": "headimgurl",
+                        "height": 86,
+                        "url": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIH6JKbvODlQ0QD4G4o9hcIGlvpu12epqk7oSzganBrfEl5qotVibxnwEdW2PAIbvv3pu3sUsicyTXw/132",
+                        "isCircular": true
+                    },
+                    {
+                        "type": "text",
+                        "x": 140,
+                        "y": 40,
+                        "color": "#000",
+                        "text": "老罗",
+                        "font": "38px PingFang-SC-Bold bold",
+                        "fid": "nickname",
+                        "lineHeight": 35,
+                        "maxLine": 1,
+                        "maxWidth": 510
+                    },
+                    {
+                        "type": "text",
+                        "x": 140,
+                        "y": 90,
+                        "color": "#999999",
+                        "text": "推荐你浏览",
+                        "font": "24px Arial",
+                        "fid": "fd16df2b4f",
+                        "lineHeight": 30,
+                        "maxLine": 1,
+                        "maxWidth": 510
+                    },
+                    {
+                        "type": "rect",
+                        "x": 34,
+                        "y": 139,
+                        "width": 616,
+                        "height": 2,
+                        "fid": "fd16df2b6b",
+                        "fillStyle": "#EEEEEE"
+                    },
+                    {
+                        "type": "text",
+                        "x": 36,
+                        "y": 241,
+                        "color": "#222222",
+                        "text": "长按识别二维码\n                        ",
+                        "font": "34px PingFang-SC-Bold bold",
+                        "fid": "fd16df2bba"
+                    },
+                    {
+                        "type": "text",
+                        "x": 36,
+                        "y": 294.9,
+                        "color": "#222222",
+                        "text": "马上进入奇妙的3D世界",
+                        "font": "34px PingFang-SC-Bold bold",
+                        "fid": "fd16df2bdd"
+                    },
+                    {
+                        "type": "image",
+                        "x": 395.1,
+                        "y": 295.6,
+                        "width": 26,
+                        "fid": "_icon",
+                        "url": "https://art-mo.51jianmo.com/scene-portal/resources/wxapp/images/carrow.png",
+                        "height": 26
+                    },
+                    {
+                        "type": "image",
+                        "x": 494.8,
+                        "y": 178,
+                        "width": 162,
+                        "fid": "qrcodeUrl",
+                        "url": "https://art-mo.51jianmo.com/scene-portal/resources/wxapp/images/cjimu.png",
+                        "height": 162
+                    }
+                ],
+                "fid": "fd16df2aba",
+                "width": 684,
+                "height": 429
+            }
+        ],
+        "url": "https://file.jimuyida.com/scenes/d39154fe-f1f4-5735-1068-d9c2ae354d10/images/c4bf8813-a495-40a9-a9f2-56e8cd679fc5/08.15.2019_09.45.31.jpg?width=750&height=1334&t=1569203394869",
+        "gblur": true,
+        "bg": "thumbnail"
+    }
+]

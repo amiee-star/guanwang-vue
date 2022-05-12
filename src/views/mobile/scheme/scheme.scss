@@ -1,0 +1,313 @@
+.m-scheme{
+    .banner{
+        height: 5.8rem;
+        position: relative;
+        img.bg{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        div.bg{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background:linear-gradient(90deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+            opacity: .85;
+        }
+        div.content{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            width: 100%;
+            color: #fff;
+            div.title{
+                font-size: .46rem;
+                line-height: .58rem;
+            }
+            div.desc{
+                margin-top: .30rem;
+                font-size: .18rem;
+                line-height: .4rem;
+            }
+            div.contact{
+                width:1.6rem;
+                height:.49rem;
+                line-height: .49rem;
+                text-align: center;
+                background:rgba(35,184,255,0.98);
+                border-radius:.25rem;
+                margin-top: .42rem;
+                font-size: .2rem;
+            }
+            div.phone{
+                margin-top: .2rem;
+                font-size: .14rem;
+                span{
+                    font-size: .28rem;
+                }
+            }
+            div.time{
+                font-size: .14rem;
+                text-indent: -0.5em;
+                margin-top: .1rem;
+            }
+        }
+    }
+
+    div.consume{
+        padding: 1rem .36rem;
+        div.title{
+            font-size: .46rem;
+            line-height: .58rem;
+        }
+        ul{
+            li{
+                margin-top: .68rem;
+                display: flex;
+                &:nth-child(1){
+                    div.icon{
+                        width: .98rem;
+                        height: .98rem;
+                        
+                    }
+                }
+                &:nth-child(2){
+                    div.icon{
+                        width: 1.64rem;
+                        height: .98rem;
+                    }
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                div.desc{
+                    flex: 1;
+                    padding-left: .22rem;
+                }
+            }
+
+        }
+    }
+
+    div.art-business{
+        height: 12.70rem;
+        position: relative;
+        img.bg{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        div.content{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            div.text{
+                padding: 0 .36rem;
+                div.title{
+                    font-size: .46rem;
+                    line-height: .58rem;
+                }
+                div.desc{
+                    font-size: .24rem;
+                    line-height: .36rem;
+                    margin-top: .36rem;
+                }
+            }
+            div.swipers{
+                height: 8.39rem;
+                width: 100%;
+                margin-top: .38rem;
+            }
+        }
+    }
+
+    div.goods{
+        background: url("/static/mimg/scheme/goods-bg.png") no-repeat center;
+        background-size: cover;
+        position: relative;
+        div.content{
+            padding-top: .99rem;
+            div.title{
+                text-align: center;
+                font-size: .46rem;
+                color: #333;
+            }
+            div.iframe{
+                width: 100%;
+                height: 5.12rem;
+                margin-top: .4rem;
+                overflow: hidden;
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }   
+        
+    }
+
+    div.goods-swiper{
+        height: 9.58rem;
+        background: #F3F6F9;
+        padding: .59rem 0;
+    }
+
+    div.hourse,div.enterprise{
+        background: #fff;
+        padding: 1.2rem 0;
+        div.m-container{
+            p.desc{
+                color: #333333;
+                font-size: .24rem;
+                margin-top: .4rem;
+            }
+            div.title{
+                font-size: .46rem;
+                color: #333333;
+            }
+        }
+        div.swiper{
+            height: 8.39rem;
+            margin-top: .38rem;
+        }
+    }
+
+    div.histroy{
+        padding: 1.2rem 0;
+        background: url("/static/mimg/scheme/histroy-bg.png") no-repeat center;
+        background-size: cover;
+        div.m-container{
+            color: #fff;
+            p.desc{
+                font-size: .24rem;
+                margin-top: .4rem;
+            }
+            div.title{
+                font-size: .46rem;
+            }
+        }
+        div.swiper{
+            height: 8.39rem;
+            margin-top: .38rem;
+        }
+    }
+
+    div.cooperation{
+        background: #F3F6F9;
+        padding: 1rem 0 0.7rem;
+        div.title{
+            font-size: .46rem;
+            color: #333333;
+            text-align: center;
+        }
+        ul{
+            overflow: hidden;
+            margin-top: .59rem;
+            padding: 0 .36rem .3rem .16rem;
+            li{
+                float: left;
+                width: 3.29rem;
+                height: 5rem;
+                background: #fff;
+                margin-bottom: .2rem;
+                margin-left: .2rem;
+                overflow: hidden;
+                box-shadow:0px 0.06rem .24rem 0px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                div.img{
+                    width: 100%;
+                    height: 2.33rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                div.content{
+                    padding: .26rem .24rem 0;
+                    div.name{
+                        color: #333333;
+                        font-size: .26rem;
+                    }
+                    div.sub{
+                        color: #999999;
+                        font-size: .2rem;
+                        margin-top: .1rem;
+                    }
+                    p{
+                        width: 100%;
+                        margin-top: .2rem;
+                        color: #333;
+                        line-height: .28rem;
+                        font-size: .20rem;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 4;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        div.btns{
+            width: 6.78rem;
+            height:.87rem;
+            line-height: .87rem;
+            margin: 0 auto;
+            border:1px solid rgba(221,221,221,1);
+            text-align: center;
+            font-size: .24rem;
+            color: #666;
+        }
+    }
+
+    footer{
+        padding: 1rem .36rem;
+        color: #333333;
+        div.title{
+            font-size: .46rem;
+        }
+        div.desc{
+            font-size: .24rem;
+            margin-top: .4rem;
+            line-height: .38rem;
+        }
+        p.time{
+            color: #999999;
+            font-size: .18rem;
+            text-indent: -0.5em;
+            margin-top: .22rem;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            margin-top: .69rem;
+            li{
+                width: 3rem;
+                text-align: center;
+                color: #333;
+                img{
+                    width: .8rem;
+                    height: .8rem;
+                }
+                p{
+                    font-size: .24rem;
+                    margin-top: .2rem;
+                    margin-bottom: .1rem;
+                }
+                span{
+                    font-size: .2rem;
+                }
+            }
+        }
+    }
+
+}

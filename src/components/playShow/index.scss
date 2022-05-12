@@ -1,0 +1,27 @@
+.comPlayWrap {
+    .comPlay{
+        width: 800px;
+        min-height: 500px;
+        .el-dialog__body{
+            text-align:  center;
+        }
+        video{
+            max-width: 100%;
+            max-height: 600px;
+            margin: auto;
+        }
+        .threeImg {
+            height: 600px;
+        }
+        .picgif{
+            height: 400px;
+            position: relative;
+            div{
+               position: absolute;
+               left: 50%;
+               top: 50%;
+               transform: translate(-50%,-50%);
+            }
+        }
+    }
+}

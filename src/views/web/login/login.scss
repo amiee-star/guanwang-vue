@@ -1,0 +1,54 @@
+.page-login{
+    div.logo{
+        text-align: right;
+        overflow: hidden;
+        padding: 40px 0 20px;
+        div.logo-componets{
+            float: left;
+        }
+    }
+    div.banner{
+        position: relative;
+        div.banner-img{
+            width: 100%;
+            height: 630px;
+            background: url("~@/assets/images/login-banner.png") no-repeat left center ;
+            background-size: cover;
+        }
+        div.login-box-w{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            
+            div.base-container{
+                height: 100%;
+                position: relative;
+                div.login-box{
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 440px;
+                    background: #fff;
+                    padding: 40px 62px 100px;
+                    box-shadow:0px 8px 36px 0px rgba(0, 0, 0, 0.41);
+                    border-radius:3px;
+                }
+            }   
+        }
+       
+    }
+    div.footer{
+        text-align: center;
+        color: #999999;
+        font-size:12px;
+        padding: 68px 0 110px;
+        img{
+            vertical-align: middle;
+            position: relative;
+            top: -2px;
+        }
+    }
+}

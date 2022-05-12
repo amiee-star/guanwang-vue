@@ -1,0 +1,25 @@
+// 计算rem的基准字体
+$rem-base-font-size: 32px;
+
+// UI设计图的分辨率宽度
+$UI-resolution-width: 750px;
+
+// 需要适配的屏幕宽度
+$device-widths: 240px, 320px, 360px, 375px, 390px, 414px, 480px, 540px, 640px, 720px, 768px,1080px, 1024px;
+
+@mixin html-font-size() {
+  @each $current-width in $device-widths {
+    @media only screen and (min-width: $current-width) {
+      html {
+        $x: $UI-resolution-width / $current-width; //计算出是几倍屏
+        font-size: $rem-base-font-size / $x;
+      }
+    }
+  }
+}
+
+@include html-font-size();
+
+@function pxToRem($px) {
+  @return $px / $rem-base-font-size * 1rem;
+}

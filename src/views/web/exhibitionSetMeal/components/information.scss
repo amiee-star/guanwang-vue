@@ -1,0 +1,83 @@
+.Information {
+  padding-top: 10px;
+  .li {
+    display: flex;
+    margin-top: 20px;
+    color: #333333;
+    font-size: 14px;
+    font-family: Alibaba PuHuiTi;
+    .title {
+      width: 115px;
+      text-align: right;
+      color: #666666;
+      margin-right: 20px;
+    }
+    .upfile {
+      width: 104px;
+      height: 104px;
+      padding: 25px 0;
+      background: rgba(0, 0, 0, 0.02);
+      border: 1px dashed rgba(0, 0, 0, 0.14901960784313725);
+      border-radius: 2px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      .uploade {
+        width: 16px;
+        height: 17px;
+        margin-bottom: 14px;
+      }
+      .thumb {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .loade {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 25px 0;
+        color: #ffffff;
+      }
+      &:hover {
+        border: 1px dashed #19a0f1;
+        .loade {
+          display: block;
+        }
+      }
+    }
+    .upfile1 {
+      border: 1px solid rgba(0, 0, 0, 0.14901960784313725);
+      &:hover {
+        border: none;
+      }
+    }
+    .zc {
+      color: #14ac1c;
+      font-size: 14px;
+      font-family: Alibaba PuHuiTi;
+    }
+    .dq {
+      color: #999999;
+      font-size: 14px;
+      font-family: Alibaba PuHuiTi;
+    }
+    .jy {
+      color: #fe5a60;
+      font-size: 14px;
+      font-family: Alibaba PuHuiTi;
+    }
+  }
+  .warning {
+    margin-left: 135px;
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+  }
+}

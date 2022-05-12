@@ -1,0 +1,195 @@
+div.m-detail {
+    background: #F9F9F9;
+    div.banner {
+        height: 4.68rem;
+        position: relative;
+        div.bannerimg {
+            height: 100%;
+            img.fill {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        div.into {
+            width: 1.85rem;
+            height: .52rem;
+            line-height: .52rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            border: .02rem solid rgba(255, 255, 255, 1);
+            border-radius: .26rem;
+            position: absolute;
+            z-index: 10;
+            left: .36rem;
+            bottom: .34rem;
+            font-size: .22rem;
+            color: #fff;
+            cursor: pointer;
+            img {
+                vertical-align: middle;
+                font-size: .22rem;
+                position: relative;
+                top: -0.02rem;
+            }
+            span {
+                padding-left: 0.06rem;
+            }
+        }
+        div.backindex {
+            position: absolute;
+            left: 0;
+            top: .32rem;
+            z-index: 66;
+            width: 1.68rem;
+            height: .54rem;
+            line-height: .54rem;
+            text-align: center;
+            background: rgba(9, 201, 255, 1);
+            border-radius: 0px .27rem .27rem 0px;
+            font-size: .28rem;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+    div.page-content {
+        background: #fff;
+        div.title {
+            color: #000000;
+            font-size: .44rem;
+            padding-top: .35rem;
+        }
+        div.user-info {
+            margin-top: .32rem;
+            display: flex;
+            div.avatar {
+                height: .86rem;
+                width: .86rem;
+                background: #eee;
+                overflow: hidden;
+                border-radius: .16rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            div.content {
+                padding-left: .29rem;
+                flex: 1;
+                box-sizing: border-box;
+                height: .86rem;
+                .name {
+                    color: #000;
+                    font-size: .28rem;
+                    font-weight: bold;
+                    padding-bottom: 0.06rem;
+                    padding-top: 0.06rem;
+                }
+                .time {
+                    color: #B2B2B2;
+                    font-size: .22rem;
+                    display: flex;
+                    justify-content: space-between;
+                    .browserCount img {
+                        width: .25rem;
+                        height: .19rem;
+                        margin-right: 0.04rem;
+                    }
+                }
+            }
+        }
+        div.text {
+            white-space: pre-wrap;
+            color: #333333;
+            font-size: .28rem;
+            margin-top: .26rem;
+        }
+        div.water-w {
+            margin-top: 0.4rem;
+            div.water {
+                position: relative;
+                div.card {
+                    width: 100%;
+                    background: #eee;
+                    border-radius: 0.1rem;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                }
+                div.gradient {
+                    position: absolute;
+                    left: -.36rem;
+                    bottom: 0;
+                    z-index: 1;
+                    width: 100vw;
+                    height: 50%;
+                    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+                }
+            }
+            div.allOpen {
+                width: 1.8rem;
+                height: .6rem;
+                text-align: center;
+                line-height: .6rem;
+                background: rgba(255, 255, 255, 1);
+                border: 1px solid rgba(221, 221, 221, 1);
+                border-radius: .3rem;
+                margin: 0 auto;
+                font-size: .26rem;
+                font-family: PingFang-SC-Regular;
+                font-weight: bold;
+                color: #333333;
+            }
+        }
+    }
+    div.comment-love-w {
+        margin-top: 20px;
+        padding: 0 .18rem;
+        div.comment-love {
+            padding: .4rem .18rem .24rem;
+            background: #F6F6F6;
+            border-bottom: 1px solid #E0E0E2;
+            display: flex;
+            div.icon {
+                width: .3rem;
+                height: .3rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            ul {
+                flex: 1;
+                padding-left: 0.06rem;
+                li {
+                    float: left;
+                    width: .64rem;
+                    height: .64rem;
+                    border-radius: .1rem;
+                    margin: 0 0 .16rem .16rem;
+                    background: #fff;
+                    overflow: hidden;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    &.more {
+                        text-align: center;
+                        line-height: .64rem;
+                        color: #CECECE;
+                        span {
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 0.08rem;
+                            height: 0.08rem;
+                            background: rgba(206, 206, 206, 1);
+                            border-radius: 50%;
+                            margin: 0 0.02rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

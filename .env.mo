@@ -1,0 +1,13 @@
+NODE_ENV=mo
+VUE_APP_artHost=
+VUE_APP_fileHost =//mo.image.jimuyida.com
+VUE_APP_data = https://obs.3dyunzhan.com/yunzhanfile/yunzhan.pdf
+VUE_APP_pdfHost = //mo-obs.3dyunzhan.com
+VUE_APP_tongjiHost = //mo-admin.3dyunzhan.com
+VUE_APP_APIURL = //mo.51jianmo.com/
+VUE_APP_UPLOADURL = //upload-mo.51jianmo.com/
+VUE_APP_EDITOR = //editor-mo.51jianmo.com/
+VUE_APP_NEWEDITOR = //mo-editorpro.51jianmo.com/
+VUE_APP_EditorURL = //mo-editor.3dyunzhan.com/
+VUE_APP_ViewURL = //mo-temp.3dyunzhan.com/
+VUE_APP_SolutionURL= //mo-v2.3dyunzhan.com

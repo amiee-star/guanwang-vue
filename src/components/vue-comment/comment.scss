@@ -1,0 +1,139 @@
+.vue-comments{
+
+    width: 100%;
+    box-sizing: border-box;
+    .editor-f{
+        border: 1px solid #f0f0f0;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .editor-w{
+        box-sizing: border-box;
+        textarea{
+            width: 100%;
+            min-height: 8.75em;
+            outline: none;
+            border: none;
+            background: transparent;
+            resize: none;
+        }
+    }
+    .vcontrol{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        padding-top: 10px ;
+        position: relative;
+        div.btn{
+            cursor: pointer;
+            border-radius: 4px;
+            width:92px;
+            height:36px;
+            line-height: 36px;
+            background:rgba(35,181,250,1);
+            border-radius:3px;
+            text-align: center;
+            color: #fff;
+            &:hover{
+                background:rgba(0,163,255,1);
+            }
+            &:active{
+                opacity:0.5;
+            }
+        }
+        div.emojibtn{
+            cursor: pointer;
+        }
+    }
+    .count{
+        padding: 10px 0;
+    }
+    ul.emoji{
+        padding-top: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+    ul.comments{
+        li{
+            padding-top: 10px;
+            display: flex;
+            div.avatar{
+                width: 3.125em;
+                height: 3.125em;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    cursor: pointer;
+                }
+            }
+            div.content{
+                flex: 1;
+                padding-left: .7525em;
+                border-bottom: 1px dashed #f5f5f5;
+                div.time-reply{
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: .75em;
+                    color: #b3b3b3;
+                    line-height:1.5;
+                    span.vat{
+                        cursor: pointer;
+                    }
+                    div.reply{
+                        color: #ef2f11;
+                        font-size: .8125em;
+                        span{
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+                div.user{
+                    font-size: .875em;
+                    line-height: 1.5;
+                }
+                div.user,.at{
+                    color: #1abc9c;
+                    cursor: pointer;
+                }
+            }
+            div.txt{
+                 white-space: pre-line;
+                 word-wrap: break-word;
+                word-break: break-all;
+                text-align: justify;
+                color: #4A4A4A;
+                font-size: .875em;
+                line-height: 2;
+                position: relative;
+                margin-bottom: .75em;
+                padding-top: .625em;
+            }
+          
+        }
+    }
+
+   div.vquote{
+       border-left: 1px dashed hsla(0,0%,93%,.5);
+       padding-left: 1em;
+       padding-top: 1em;
+   }
+    div.loadmore{
+        text-align: center;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,247 @@
+.payMent {
+  .qrcode {
+    width: 160px;
+    height: 160px;
+    margin: 30px auto;
+
+  }
+
+  .payWay {
+    span {
+      width: 120px;
+      height: 36px;
+      background: #F5F6F7;
+      border: 1px solid #EEEEEE;
+      opacity: 1;
+      display: inline-flex;
+      cursor: pointer;
+      &:first-of-type {
+        margin-right: 20px;
+      }
+
+      svg {
+        width: 5rem;
+        height: 3.5em;
+        //font-size: 64px;
+      }
+    }
+    .active{
+      border-color: #19A0F1;
+    }
+  }
+
+
+  //.content {
+  //  background: #fff;
+  //  padding: 30px 60px;
+  //
+  //  .head {
+  //    display: flex;
+  //    justify-content: space-between;
+  //    align-items: center;
+  //
+  //    div.ti {
+  //      font-size: 26px;
+  //      color: #000000;
+  //
+  //      .title {
+  //        font-size: 14px;
+  //        color: #666666;
+  //      }
+  //
+  //      .jine {
+  //        font-size: 24px;
+  //        color: #fe5a60;
+  //      }
+  //    }
+  //
+  //    .recharge {
+  //      width: 103px;
+  //      height: 36px;
+  //      line-height: 36px;
+  //      text-align: center;
+  //      background: #23b8ff;
+  //      border-radius: 3px;
+  //      color: #ffffff;
+  //      font-size: 14px;
+  //      margin-right: 24px;
+  //      cursor: pointer;
+  //    }
+  //
+  //    div.kefu {
+  //      color: #23b8ff;
+  //
+  //      span {
+  //        line-height: 36px;
+  //      }
+  //
+  //      span:hover {
+  //        text-decoration: underline;
+  //        cursor: pointer;
+  //      }
+  //
+  //      svg {
+  //        font-size: 18px;
+  //        margin-left: 4px;
+  //      }
+  //    }
+  //  }
+  //
+  //  .orderStatus {
+  //    position: relative;
+  //
+  //    &::after {
+  //      content: "";
+  //      display: block;
+  //      position: absolute;
+  //      top: 6px;
+  //      left: 14px;
+  //      width: 0;
+  //      height: 0;
+  //      border: 5px solid #ccc;
+  //      border-radius: 50%;
+  //    }
+  //
+  //    &.success {
+  //      &::after {
+  //        border-color: #0da056;
+  //      }
+  //    }
+  //
+  //    &.warning {
+  //      &::after {
+  //        border-color: #e6a23c;
+  //      }
+  //    }
+  //
+  //    &.info {
+  //      &::after {
+  //        border-color: #d3d4d6;
+  //      }
+  //    }
+  //  }
+  //
+  //  //div.table {
+  //  //  padding: 26px 0;
+  //  //
+  //  //  ::v-deep .el-table {
+  //  //    th {
+  //  //      background: #f0f0f0;
+  //  //      color: #333333;
+  //  //      font-weight: bold;
+  //  //      padding: 0;
+  //  //      line-height: 42px;
+  //  //    }
+  //  //
+  //  //    span.name {
+  //  //      color: #336484;
+  //  //      cursor: pointer;
+  //  //
+  //  //      &:hover {
+  //  //        text-decoration: underline;
+  //  //      }
+  //  //    }
+  //  //
+  //  //    span.success {
+  //  //      color: #0da056;
+  //  //    }
+  //  //
+  //  //    span.error {
+  //  //      color: #ff5a5f;
+  //  //    }
+  //  //
+  //  //    span.waiting {
+  //  //      color: #00aeff;
+  //  //    }
+  //  //
+  //  //    span.notpay {
+  //  //      color: #ff5a5f;
+  //  //    }
+  //  //  }
+  //  //
+  //  //  .more {
+  //  //    color: #23b8ff;
+  //  //    font-size: 14px;
+  //  //    cursor: pointer;
+  //  //  }
+  //  //}
+  //}
+
+  .qrcode-part {
+    margin: 0 auto;
+    text-align: center;
+    width: 340px;
+    height: 360px;
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    opacity: 1;
+
+    .recharge-money {
+      color: #FE5A60;
+      font-size: 24px;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 40px;
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 32px;
+      color: #ccc;
+      margin: 20px 0;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .dialog-footer {
+    text-align: center;
+    margin: 0 0 60px 0;
+
+    .sure {
+      width: 108px;
+      height: 36px;
+      line-height: 11px;
+      font-size: 14px;
+      margin: auto;
+      border-radius: 3px;
+      background: #f69a23;
+      border-color: #f69a23;
+      color: #ffffff;
+    }
+
+    .el-button.is-disabled,
+    .el-button.is-disabled:focus,
+    .el-button.is-disabled:hover {
+      color: #fff;
+      cursor: not-allowed;
+      background-image: none;
+      background-color: #C0C4CC;
+      border-color: #C0C4CC;
+    }
+  }
+
+  .tishi {
+    position: absolute;
+    width: 100%;
+    margin-left: -20px;
+    bottom: 0;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #fef5e8;
+    color: #f69a23;
+  }
+
+  .el-dialog__header {
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-family: Alibaba PuHuiTi;
+    color: #707070;
+    padding: 18px 20px;
+  }
+
+  label {
+    color: #999999;
+  }
+}

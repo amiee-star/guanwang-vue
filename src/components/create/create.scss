@@ -1,0 +1,131 @@
+.create-zhanting{
+    .custom-dialog__wrapper{
+        .box{
+            width:930px;
+            background:rgba(255,255,255,1);
+            box-shadow:0px 8px 36px 0px rgba(0, 0, 0, 0.41);
+            border-radius:5px;
+            padding: 0 40px 36px;
+            max-height: 96vh;
+            overflow: auto;
+        }
+        div.h1{
+            font-size:28px;
+            color: #666666;
+            padding: 36px 0 30px 40px;
+        }
+        div.step-two{
+            width: 850px;
+            div.h1{
+                padding-left: 0;
+            }
+            ul.list{
+                display: flex;
+                flex-wrap: wrap;
+                height: 420px;
+                margin-top: 24px;
+                li{
+                    width:270px;
+                    height:190px;
+                    background:rgba(255,255,255,1);
+                    box-shadow:0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+                    border-radius:5px;
+                    position: relative;
+                    margin-left:20px;
+                    margin-bottom: 20px;
+                    transition: .2s;
+                    cursor: pointer;
+                    &:nth-child(3n+1){
+                        margin-left: 0;
+                    } 
+                   
+                    img.thumbnail{
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                    }
+    
+                    div.guankan{
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        width:42px;
+                        height:30px;
+                        line-height: 30px;
+                        background:rgba(0,0,0,0.4);
+                        border-radius:3px;
+                        text-align: center;
+                        opacity: 0;
+                        transition: .3s;
+                        img{
+                            vertical-align: middle;
+                        }
+                    }
+                    p.name{
+                        font-size:14px;
+                        color: #666;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        background: #fff;
+                        width: 100%;
+                        padding: 0 16px;
+                        line-height: 38px;
+                    }
+                    div.use{
+                        position: absolute;
+                        top: 61px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width:122px;
+                        height:34px;
+                        line-height: 34px;
+                        text-align: center;
+                        background:rgba(35,184,255,1);
+                        border-radius:3px;
+                        font-size:14px;
+                        color: #fff;
+                        opacity: 0;
+                        transition: .3s;
+                    }
+                    &:hover{
+                        border: 2px solid #23B8FF;
+                        div.use{
+                            opacity: 1;
+                        }
+                        div.guankan{
+                            opacity: 1;
+                        }
+                    }
+                    &.thumbnail-w{
+                        img.thumbnail{
+                            width: 175px;
+                            height: auto;
+                            position: absolute;
+                            left: 50%;
+                            top: 40%;
+                            transform: translateX(-50%) translateY(-50%);
+                        }
+                    }
+                }
+            }
+    
+            div.commonPagina{
+                margin: 10px 0 24px;
+            }
+            div.notlike{
+                text-align: center;
+                font-size: 14px;
+                color: #999;
+                span{
+                    color: #ED5B57;
+                }
+            }
+    
+    
+           
+        }
+    
+    }
+}

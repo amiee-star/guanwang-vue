@@ -1,0 +1,165 @@
+    .pay-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 92px;
+        background: rgba(229, 229, 229, 1);
+        box-shadow: 0px -10px 0px 0px rgba(246, 246, 246, 1);
+        z-index: 10;
+        min-width: 1200px;
+        .base-container {
+            display: flex;
+            max-width: 1522px;
+            justify-content: space-between;
+            height: 80px;
+            >div {
+                display: flex;
+            }
+            .thumbnail {
+                height: 100%;
+                width: 96px;
+                padding: 10px 0;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+                span {
+                    position: absolute;
+                    top: 10px;
+                    left: 0px;
+                    width: 34px;
+                    height: 19px;
+                    background: rgba(0, 0, 0, 0.7);
+                    color: rgba(255, 255, 255, 1);
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 19px;
+                }
+            }
+            .btn {
+                margin-top: 20px;
+                height: 52px;
+                width: 120px;
+                background: rgba(255, 68, 0, 1);
+                text-align: center;
+                line-height: 52px;
+                cursor: pointer;
+                font-size: 18px;
+                color: #fff;
+                font-weight: bold;
+                &:hover {
+                    background-color: #FF1E00;
+                }
+                &:active {
+                    opacity: 0.8;
+                }
+            }
+            div.item {
+                padding-top: 14px;
+                p.label {
+                    color: #999999;
+                }
+                &.date {
+                    margin-left: 40px;
+                    p {
+                        margin-bottom: 3px;
+                    }
+                    div {
+                        height: 40px;
+                        span {
+                            display: inline-block;
+                            color: #333333;
+                            position: relative;
+                            left: 0;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+                    }
+                }
+                &.code {
+                    margin-left: 40px;
+                    .inp {
+                        display: flex;
+                        margin-top: 10px;
+                        button {
+                            margin-left: 10px;
+                            width: 64px;
+                            font-size: 14px;
+                        }
+                        .is-disabled {
+                            background-color: #B0B0B0;
+                            border-color: #B0B0B0;
+                        }
+                         ::v-deep .el-input {
+                            width: 160px;
+                            .el-input__inner {
+                                //background: none;
+                                height: 30px;
+                                line-height: 30px;
+                            }
+                            &:focus {
+                                border: 1px solid #23B8FF
+                            }
+                        }
+                        .errorTxt {
+                            border: 1px solid #FF0000;
+                            border-radius: 4px;
+                        }
+                        .succeTxt {
+                            //border:1px solid #666666;
+                            border-radius: 4px;
+                        }
+                        .normalTxt {
+                            border: 1px solid #23B8FF;
+                            border-radius: 4px;
+                        }
+                        &.codeState {}
+                        .res {
+                            font-size: 12px;
+                            line-height: 28px;
+                            margin-left: 16px;
+                            margin-top: 2px;
+                            span.error {
+                                color: #FF0000;
+                            }
+                            span.success {
+                                color: #00A3FF;
+                            }
+                        }
+                    }
+                }
+                &.discount {
+                    margin-right: 40px;
+                    margin-left: 10px;
+                    span {
+                        white-space: nowrap;
+                        display: inline-block;
+                        color: #fff;
+                        padding: 2px 6px;
+                        background: #FF5448;
+                        border-radius: 3px;
+                        margin-top: 14px;
+                    }
+                }
+                &.price {
+                    margin-right: 40px;
+                    p {
+                        margin-bottom: 7px;
+                    }
+                    span.now {
+                        color: #FF4400;
+                        font-size: 24px;
+                        margin-right: 9px;
+                    }
+                    span.normal {
+                        font-size: 14px;
+                        color: #999999;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }

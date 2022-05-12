@@ -1,0 +1,148 @@
+.vr-host {
+  .el-dialog {
+    width: 670px !important;
+    .el-dialog__header {
+      padding: 18px 24px;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .header-title {
+    display: flex;
+    p {
+      font-size: 16px;
+      font-family: "Source Han Sans CN";
+      color: #333333;
+      font-weight: bold;
+      letter-spacing: 1px;
+      span {
+        font-size: 12px;
+        color: #999;
+        font-weight: normal;
+      }
+    }
+    i.el-tooltip {
+      height: 15px;
+      font-size: 15px;
+      color: #999;
+      cursor: pointer;
+      margin-top: 6px;
+      &:hover {
+        color: #19A0F1;
+      }
+    }
+  }
+  .select {
+    margin-bottom: 20px;
+    .el-input {
+      width: 216px;
+      .el-input__inner {
+        height: 36px;
+        line-height: 36px;
+      }
+       i {
+         cursor: pointer;
+       }
+    }
+    .el-button {
+      margin-left: 12px;
+      width: 78px;
+      background: #23B8FF;
+      border-radius: 3px;
+      border: 1px solid #23B8FF;
+      color: #fff;
+      padding: 10px 18px;
+      &.is-disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+  .table {
+    .tips {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .el-table {
+      min-height: 435px;
+      th {
+        background-color: #F6F6F6;
+        color: #999;
+        .el-checkbox {
+          display: none;
+        }
+      }
+      tr {
+        &:hover{
+          td {
+            background-color: transparent;
+          }
+        }
+      }
+      th.is-leaf {
+        border-bottom: none;
+      }
+      .el-table__body-wrapper {
+        &::-webkit-scrollbar {
+          width: 8px;
+          height: 2px;
+          background: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+          height: 1px;
+          border-radius: 3px;
+          background: #DDDDDD;
+        }
+      }
+      .el-table__row.errowRow {
+        .cell {
+          height: 55px;
+          .el-checkbox {
+            display: none;
+          }
+        }
+        .is-center {
+          .cell {
+            line-height: 55px;
+          }
+        }
+      }
+      .el-table__row.noCheckBox {
+        .cell {
+          .el-checkbox {
+            display: none;
+          }
+        }
+      }
+      .cell {
+        span {
+          cursor: pointer;
+        }
+        .error {
+          cursor: inherit;
+          font-size: 12px;
+          color: #FF5A5F;
+        }
+        .edit,
+        .delete,
+        .save,
+        .cancel{
+          color: #19A0F1;
+        }
+        .confirmDel {
+          color: #FF5A5F;
+        }
+        .line {
+          margin: 0 10px;
+          color: #ddd;
+        }
+        .edit.disabled {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+.el-tooltip__popper.is-light {
+  line-height: 22px;
+  color: #666;
+}

@@ -1,0 +1,16 @@
+.dialog-box {
+    &::v-deep {
+        .el-dialog__body {
+            padding-top: 10px;
+            min-height: 600px;
+            overflow-y: auto;
+        }
+        .el-dialog__headerbtn {
+            font-size: 20px;
+        }
+    }
+    iframe {
+        width: 100%;
+        min-height: 600px;
+    }
+}

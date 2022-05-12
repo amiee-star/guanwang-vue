@@ -1,0 +1,45 @@
+.account-center {
+  .box {
+    width: 761px;
+    height: 480px;
+    box-shadow: 0px 8px 36px 0px rgba(0, 0, 0, 0.41);
+    border-radius: 12px 10px 10px 12px;
+    display: flex;
+    &.mobile {
+      width: 387px;
+      .info {
+        width: 100%;
+        padding: 40px 40px 28px;
+        .box-line {
+          width: 350px;
+          left: -23px;
+        }
+      }
+    }
+    .banner {
+      width: 300px;
+      height: 100%;
+      border-radius: 10px 0 0 10px;
+      background: #fff;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+      }
+    }
+    .info {
+      width: calc(100% - 300px);
+      padding: 40px 74px 28px;
+      border-radius: 0px 10px 10px 0px;
+      position: relative;
+      background: #fff;
+    }
+  }
+  &::v-deep {
+    .el-dialog {
+      border-radius: 10px;
+    }
+  }
+}
